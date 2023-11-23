@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple HTML CSS Website</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="colorange">simple HTML CSS Website</h1>
+    </header>
+
+    <!-- Main Content with Two Columns -->
+    <section>
+
+        <!-- Left Column -->
+        <div>
+            <!-- Heading Tags -->
+            <h2>Heading Tags</h2>
+            <h1>This is an H1 Heading</h1>
+            <h2>This is an H2 Heading</h2>
+
+            <!-- Form Tags -->
+            <h2>Form Tags</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <label>Choose an option:</label>
+                <input type="radio" id="option1" name="option" value="option1">
+                <label for="option1">Option 1</label>
+                <input type="radio" id="option2" name="option" value="option2">
+                <label for="option2">Option 2</label>
+                <br>
+                <label>Select an option:</label>
+                <select>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+                <label for="checkbox1">Checkbox 1</label>
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+                <label for="checkbox2">Checkbox 2</label>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Text Formatting Tags -->
+            <h2>Text Formatting Tags</h2>
+            <b>This is bold text.</b>
+            <strong>This is strong text.</strong>
+
+            <!-- List Tags -->
+            <h2>List Tags</h2>
+            <ul>
+                <li>Unordered List Item 1</li>
+                <li>Unordered List Item 2</li>
+            </ul>
+
+            <ol>
+                <li>Ordered List Item 1</li>
+                <li>Ordered List Item 2</li>
+            </ol>
+
+            <!-- Definition List -->
+            <h2>Definition List</h2>
+            <dl>
+                <dt>Definition Term 1</dt>
+                <dd>Definition Description 1</dd>
+
+                <dt>Definition Term 2</dt>
+                <dd>Definition Description 2</dd>
+            </dl>
+
+            <!-- Additional Tags -->
+            <h2>Additional Tags</h2>
+            <map name="map_example">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            </map>
+
+            <!-- Input Tags -->
+            <h2>Input Tags</h2>
+            <input type="text" placeholder="Text Input">
+            <br>
+            <input type="password" placeholder="Password Input">
+            <br>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox3">
+            <label for="checkbox3">Checkbox 3</label>
+            <br>
+            <input type="checkbox" id="checkbox4" name="checkbox4" value="checkbox4">
+            <label for="checkbox4">Checkbox 4</label>
+            <br>
+            <input type="radio" id="radio3" name="radioGroup" value="radio3">
+            <label for="radio3">Radio 3</label>
+            <br>
+            <input type="radio" id="radio4" name="radioGroup" value="radio4">
+            <label for="radio4">Radio 4</label>
+            <br>
+            <select>
+                <option value="option4">Option 4</option>
+                <option value="option5">Option 5</option>
+                <option value="option6">Option 6</option>
+            </select>
+
+            <!-- File Upload -->
+            <h2>File Upload</h2>
+            <input type="file" id="file" name="file">
+
+            <!-- Date and Time Input -->
+            <h2>Date and Time Input</h2>
+            <input type="date">
+            <br>
+            <input type="time">
+            <br>
+            <input type="datetime-local">
+
+            <!-- Miscellaneous Tags -->
+            <h2>Miscellaneous Tags</h2>
+            <s>This is a strikethrough text.</s>
+            <br>
+            <code>This is a code block.</code>
+            <br>
+            <kbd>This is keyboard input.</kbd>
+            <br>
+            <pre>This is preformatted text.</pre>
+        </div>
+
+        <!-- Right Column -->
+        <div>
+            <!-- Additional Tags -->
+            <h2>Additional Tags</h2>
+            <map name="map_example">
+                <!-- ... (other tags) ... -->
+            </map>
+            <marquee behavior="scroll" direction="left">This is a marquee (Moving Tex).</marquee>
+
+            <!-- Layout Tags -->
+            <h2>Layout Tags</h2>
+            <header>This is a header</header>
+            <nav>This is a navigation</nav>
+
+            <!-- Media Tags -->
+            <h2>Media Tags</h2>
+            <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+
+            <!-- Table Tag -->
+            <!-- Table Tag -->
+<h2>Table Tag</h2>
+<table>
+    <tr>
+        <th colspan="2">Table Header 1</th>
+        <th>Table Header 2</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Merged Cells</td>
+        <td>Row 1, Cell 2</td>
+        <td>Row 1, Cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 2, Cell 2</td>
+        <td>Row 2, Cell 3</td>
+    </tr>
+    <!-- Additional Row -->
+    <tr>
+        <td colspan="3">Row 3, Cells 1-3</td>
+    </tr>
+</table>
+
+
+            <!-- Embedding Content -->
+            <h2>Embedding Content</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <br>
+            <iframe src="https://www.example.com" width="600" height="400" title="Example Website"></iframe>
+
+            <!-- HTML Entities and Emojis -->
+            <h2>HTML Entities and Emojis</h2>
+            &copy; <!-- Copyright symbol -->
+            <br>
+            &reg; <!-- Registered trademark symbol -->
+            <br>
+            &trade; <!-- Trademark symbol -->
+            <br>
+            &#9786; <!-- Smiley face emoji -->
+            <br>
+            &#128515; <!-- Grinning face with smiling eyes emoji -->
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Prasanna. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+<!--
+
+
+    
+Are you looking for a comprehensive guide to HTML codes? Look no further! I have created an easy-to-follow PDF that covers all the basics of HTML usage. From basic tags and attributes, to more advanced concepts like styling and formatting - this document has it all! Download now and get coding in no time.
+-->
